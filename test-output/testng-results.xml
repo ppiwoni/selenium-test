@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-02T16:35:11 CEST" name="Suite" finished-at="2021-05-02T16:35:19 CEST" duration-ms="7958">
+    <groups>
+    </groups>
+    <test started-at="2021-05-02T16:35:11 CEST" name="Test" finished-at="2021-05-02T16:35:19 CEST" duration-ms="7958">
+      <class name="tests.scenario.Test_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.scenario.Test_Login@5e2f3be5]" started-at="2021-05-02T16:35:11 CEST" name="setUp" finished-at="2021-05-02T16:35:15 CEST" duration-ms="4270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoVisibility()[pri:0, instance:tests.scenario.Test_Login@5e2f3be5]" started-at="2021-05-02T16:35:15 CEST" name="logoVisibility" description="Verify logo" finished-at="2021-05-02T16:35:15 CEST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVisibility -->
+        <test-method signature="loginTest()[pri:0, instance:tests.scenario.Test_Login@5e2f3be5]" started-at="2021-05-02T16:35:16 CEST" name="loginTest" description="Verify user login" finished-at="2021-05-02T16:35:19 CEST" depends-on-methods="tests.scenario.Test_Login.logoVisibility" duration-ms="3477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.scenario.Test_Login@5e2f3be5]" started-at="2021-05-02T16:35:19 CEST" name="tearDown" finished-at="2021-05-02T16:35:19 CEST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.scenario.Test_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
